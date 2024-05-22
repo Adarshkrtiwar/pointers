@@ -1,0 +1,63 @@
+#include<stdio.h>
+
+int main(){
+    int arr[]={5,6,8,3,7,2,9};
+    
+    printf("%d\t",arr[0]);
+    printf("%d\t",arr[1]);
+    printf("%d\t",arr[2]);
+    printf("%d\t",arr[3]);
+    printf("%d\t",arr[4]);
+    printf("%d\t",arr[5]);
+    printf("%d\t",arr[6]);
+    printf("%d\n",arr[7]);
+    
+    char ch[]={'a','s','d','f','g','h','j','k','l'};
+    printf("%c\t",ch[0]);
+    printf("%c\t",ch[1]);
+    printf("%c\t",ch[2]);
+    printf("%c\t",ch[3]);
+    printf("%c\t",ch[4]);
+    printf("%c\t",ch[5]);
+    printf("%c\t",ch[6]);
+    printf("%c\t",ch[7]);
+    printf("%c\t",ch[8]);
+    printf("%c\t",ch[9]);
+    
+    int arr[10];
+    printf("Enter marks for 10 students :");
+    scanf("%d",&arr[0]);
+    scanf("%d",&arr[1]);
+    scanf("%d",&arr[2]);
+    scanf("%d",&arr[3]);
+    scanf("%d",&arr[4]);
+    scanf("%d",&arr[5]);
+    scanf("%d",&arr[6]);
+    scanf("%d",&arr[7]);
+    scanf("%d",&arr[8]);
+    scanf("%d",&arr[9]);
+    
+    printf("Element of arrays is : %d\n",arr[0]);
+    printf("Element of arrays is :%d\n",arr[1]);
+    printf("Element of arrays is :%d\n",arr[2]);
+    printf("Element of arrays is :%d\n",arr[3]);
+    printf("Element of arrays is :%d\n",arr[4]);
+    printf("Element of arrays is :%d\n",arr[5]);
+    printf("Element of arrays is :%d\n",arr[6]);
+    printf("Element of arrays is :%d\n",arr[7]);
+    printf("Element of arrays is :%d\n",arr[8]);
+    printf("Element of arrays is :%d\n",arr[9]);
+    
+    int age = 23;
+    int *ptr=&age;
+    (*ptr)++;
+    printf("the age is %d \n ",*ptr);
+    printf("the age is %d ",age);
+    int arr[10]={1,2,3,4,5,6,7,8,9,10};
+     for(int i = 0;i<10;i++){
+         printf("%d\t",arr[i]);
+     }
+    
+    
+    return 0;
+}
