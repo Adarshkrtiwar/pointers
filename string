@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<string.h>
+
+int main (){
+    // char ch[100] ="Adarsh";
+    // char chh[100]="Tiwari";
+    // int a= strlen(ch);
+    // printf("%d ",a);
+    // strcat(ch,chh);
+    // printf("%s\n",ch);
+    // char chhh[15];
+    // strcpy(chhh,ch);
+    //  printf("%s\n",chhh);
+     
+    //  int b = strcmp(ch,chh);
+    //   printf("%d",b);
+    // // strcpy;
+    // // strcmp;
+    // char name[100];
+    // printf("Enter a string  ;");
+    // scanf("%s",name);
+    // printf("%s\n",name);
+    
+    // int s= 0;
+    // int e= strlen(name)-1;
+    // while(s<=e){
+    //     char temp;
+    //     temp=name[s];
+    //     name[s]=name[e];
+    //     name[e]=temp;
+    //     s++;
+    //     e--;
+    // }
+    //  printf(" reversed string is %s",name);
+    char str[15];
+    printf("")
+    
+    return 0;
+}
