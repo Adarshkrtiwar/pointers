@@ -1,0 +1,50 @@
+#include<stdio.h>
+
+void swap(int a,int b);
+void _swap(int *a,int *b);
+int main (){
+    
+    int a = 4;
+    int *ptr=&a;
+    int **q=&ptr;
+    
+    char ch='a';
+    char *cptr=&ch;
+    
+    printf("%d\n",a);
+     printf("%u\n",&a);
+     printf("%u\n",ptr);
+      printf("%d\n",*ptr);
+      printf("%d\n",(*ptr)+1);
+      printf("%d\n",**q);
+     printf("%p\n",q);
+     printf("%p\n",&q);
+     printf("%c\n",ch);
+     printf("%u\n",&ch);
+     printf("%u\n",cptr);
+     printf("%c\n",*cptr);
+      printf("%c\n",&cptr);
+     int a=20;
+     int b=30;
+     swap(20,30);
+     
+     printf("Values of a and b after call by valus  swapping is %d and %d\n" ,a,b);
+     
+     _swap(&a, &b);
+     printf("Values of a and b by call by reference after swapping is %d and %d\n" ,a,b);
+    return 0;
+}
+void swap(int a ,int b ){
+    int temp=a;
+    a=b;
+    b=temp;
+      
+     printf("Values of a and b in swap function  is %d and %d\n" ,a,b);
+}
+void _swap(int *a,int *b){
+    int temp=*a;
+    *a=*b;
+    *b=temp;
+    
+    printf("Values of a and b in _swap function  is %d and %d\n" ,*a,*b);
+}
